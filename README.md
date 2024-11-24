@@ -1,19 +1,3 @@
 # langchain-265
+![image](https://github.com/user-attachments/assets/f3901fc2-b3e6-442c-98b4-d63f1bf6c9b1)
 
-+-----------+       +------------------+       +-------------------------+
-| Question  | --->  | Similarity Search| --->  | Relevant Information    |
-+-----------+       +------------------+       +-------------------------+
-                            |                          |
-                            v                          v
-                       +------------------+       +-------------------+
-                       | Central Processing| --->  | Answer (Output)   |
-                       | (AI Model, e.g.,  |       | Cloud or Interface|
-                       | OpenAI, Hugging  |       |                   |
-                       | Face)            |       |                   |
-                       +------------------+       +-------------------+
-                            |
-                            v
-                       +------------------+
-                       | Action (Robot or |
-                       | Function Trigger)|
-                       +------------------+
